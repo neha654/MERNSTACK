@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Learning Academy</title>
+    <link rel="stylesheet" href="task3.css">
+</head>
+<body>
+
+    <nav>
+        <h2>Digital Learning Academy</h2>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#register">Register</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1>Welcome to Digital Learning Academy</h1>
+        <p>Enhancing Skills Through Modern Education</p>
+    </section>
+
+    <section id="courses">
+
+        <h1>Our Courses</h1>
+
+        <div class="course-container">
+
+            <div class="course-box">
+                <h3>Web Development</h3>
+                <ul>
+                    <li>HTML & CSS</li>
+                    <li>JavaScript</li>
+                    <li>React JS</li>
+                </ul>
+            </div>
+
+            <div class="course-box">
+                <h3>Programming Languages</h3>
+                <ol>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>C++</li>
+                </ol>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="register">
+
+        <h1>Student Registration</h1>
+
+        <form>
+
+            <label>Name</label>
+            <input type="text" placeholder="Enter your name">
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email">
+
+            <label>Phone</label>
+            <input type="tel" placeholder="Enter phone number">
+
+            <label>Select Course</label>
+            <select>
+                <option>HTML & CSS</option>
+                <option>JavaScript</option>
+                <option>Python</option>
+                <option>Java</option>
+            </select>
+
+            <label>Gender</label>
+
+            <div class="gender">
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+            </div>
+
+            <label>Message</label>
+            <textarea rows="4"></textarea>
+
+            <button type="submit">Register</button>
+
+        </form>
+
+    </section>
+
+</body>
+</html>
